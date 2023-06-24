@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_dark"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".StartActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="1500dp"
+        android:layout_height="1000dp"
+        android:layout_marginLeft="-350dp"
+        android:layout_marginTop="-700dp"
+        android:layout_marginRight="-350dp"
+        android:background="@drawable/ellipse" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:fontFamily="@font/bahnschrift"
+        android:gravity="center"
+        android:text="@string/RU_select_mode"
+        android:textColor="@color/white"
+        android:textSize="28sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginVertical="128dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCameraMode"
+            android:layout_width="340dp"
+            android:layout_height="110dp"
+            android:layout_marginVertical="16dp"
+            android:elevation="4dp"
+            android:fontFamily="@font/bahnschrift"
+            android:stateListAnimator="@null"
+            android:text="@string/RU_camera_mode"
+            android:textColor="@color/purple_dark"
+            android:textSize="28sp"
+            app:backgroundTint="@color/white"
+            app:cornerRadius="100dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPictureMode"
+            android:layout_width="340dp"
+            android:layout_height="110dp"
+            android:layout_marginVertical="16dp"
+            android:elevation="4dp"
+            android:fontFamily="@font/bahnschrift"
+            android:stateListAnimator="@null"
+            android:text="@string/RU_picture_mode"
+            android:textColor="@color/purple_dark"
+            android:textSize="28sp"
+            app:backgroundTint="@color/white"
+            app:cornerRadius="100dp" />
+    </LinearLayout>
+
+</RelativeLayout>

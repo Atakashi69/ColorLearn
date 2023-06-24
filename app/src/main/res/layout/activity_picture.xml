@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PictureActivity">
+
+    <LinearLayout
+        android:id="@+id/layoutCameraFindColor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/purple_dark"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="5dp">
+
+        <TextView
+            android:id="@+id/txtPictureFindColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/bahnschrift"
+            android:gravity="center"
+            android:text="Найдите цвет"
+            android:textColor="@color/white"
+            android:textSize="26sp" />
+
+        <ImageView
+            android:id="@+id/imgPictureFindColor"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#40000000"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="5dp">
+
+        <TextView
+            android:id="@+id/txtPictureCurrentColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/bahnschrift"
+            android:gravity="center"
+            android:paddingHorizontal="5dp"
+            android:text="Нажми на картинку"
+            android:textColor="@color/white"
+            android:textSize="26sp" />
+
+        <ImageView
+            android:id="@+id/imgPictureCurrentColor"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgPicturePlaceholder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/purple_dark"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnPictureVoice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:paddingVertical="5dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/voice" />
+
+        <ImageButton
+            android:id="@+id/btnPictureNext"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:paddingVertical="5dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/next" />
+
+        <ImageButton
+            android:id="@+id/btnPictureExit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:paddingVertical="5dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/exit" />
+
+    </LinearLayout>
+
+</LinearLayout>

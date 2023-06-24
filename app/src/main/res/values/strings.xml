@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ColorLearn</string>
+
+    <string name="RU_lang">Русский</string>
+    <string name="RU_settings">Настройки</string>
+    <string name="RU_settings_voice">Озвучивание текста</string>
+    <string name="RU_settings_voice_on">ВКЛ.</string>
+    <string name="RU_settings_voice_off">ВЫКЛ.</string>
+    <string name="RU_select_mode">Выберите режим обучения</string>
+    <string name="RU_camera_mode">ПО КАМЕРЕ</string>
+    <string name="RU_picture_mode">ПО КАРТИНКЕ</string>
+    <string name="RU_select_lang">Выберите язык</string>
+    <string name="RU_find_color_1">Найди</string>
+    <string name="RU_find_color_2">цвет</string>
+    <string name="RU_click_picture">Нажми на картинку</string>
+
+    <string name="EN_lang">English</string>
+    <string name="EN_settings">Settings</string>
+    <string name="EN_settings_voice">Voiceover</string>
+    <string name="EN_settings_voice_on">ON</string>
+    <string name="EN_settings_voice_off">OFF</string>
+    <string name="EN_select_mode">Select learning mode</string>
+    <string name="EN_camera_mode">BY CAMERA</string>
+    <string name="EN_picture_mode">BY PICTURE</string>
+    <string name="EN_select_lang">Select language</string>
+    <string name="EN_find_color_1">Find</string>
+    <string name="EN_find_color_2">color</string>
+    <string name="EN_click_picture">Click on the picture</string>
+
+</resources>
